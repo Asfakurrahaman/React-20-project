@@ -19,5 +19,10 @@ const data = [
         question: "Can I create an accordion compnent with a different free",
         answer: "Yes of course, it is vary possible to create and accordion an accordion components",
     },
+    {
+        id : '5',
+        question: "Can I create an accordion compnent with a different free",
+        answer: "Yes of course, it is vary possible to create and accordion an accordion components",
+    },
 ];
 export default data;
