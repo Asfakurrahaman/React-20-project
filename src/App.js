@@ -5,6 +5,7 @@ import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/lode-more-button';
+import QRCodeGenerator from "./components/qr-code-generator";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       {/* <RandomColor /> */}
 
       {/* Star rating component */}
-      <StarRating noOfStars={5}/>
+      {/* <StarRating noOfStars={5}/> */}
 
       {/* Image slider component */}
       {/* <ImageSlider
@@ -27,6 +28,11 @@ function App() {
 
       {/* Load more products component */}
       {/* <LoadMoreData/> */}
+
+      {/* QR code generator */}
+      <QRCodeGenerator/>
+
+      
     </div>
   );
 }
